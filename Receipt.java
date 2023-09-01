@@ -30,7 +30,7 @@ public class Receipt{
          System.out.println(apple + " Apple(s)" + "              $1.50 each" + "$" + price);
          System.out.println(banana + " Banana(s)" + "               $0.75 each" + "$" + (banana*0.75));
          System.out.println(pear + " Pear(s)" + "               $1.00 each" + "$" + (pear*1.00));
-         System.out.println(orange + " Orange(s)" + "               $1.25 each" + "$" + (banana*0.75));
+         System.out.println(orange + " Orange(s)" + "               $1.25 each" + "$" + (pear*1.25));
 
 
         
