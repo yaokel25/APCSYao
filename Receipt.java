@@ -21,16 +21,16 @@ public class Receipt{
          pear = scan.nextInt();
          System.out.println("How many oranges would you like? ($1.25 each)");
          orange = scan.nextInt();
-         System.out.println("Are you finished with you purchase?");
-         end = scan.nextLine();
+         System.out.println("Thank you for your purchase!");
+         //end = scan.nextLine();
 
          //printing receipt
          System.out.println("****************************************");
          double price = apple*1.5;
-         System.out.println(apple + " Apple(s)" + "              $1.50 each" + "$" + price);
-         System.out.println(banana + " Banana(s)" + "               $0.75 each" + "$" + (banana*0.75));
-         System.out.println(pear + " Pear(s)" + "               $1.00 each" + "$" + (pear*1.00));
-         System.out.println(orange + " Orange(s)" + "               $1.25 each" + "$" + (pear*1.25));
+         System.out.println(apple + " Apple(s)" + "            $1.50 each" + " $" + price);
+         System.out.println(banana + " Banana(s)" + "           $0.75 each" + " $" + (banana*0.75));
+         System.out.println(pear + " Pear(s)" + "             $1.00 each" + " $" + (pear*1.00));
+         System.out.println(orange + " Orange(s)" + "           $1.25 each" + " $" + (pear*1.25));
 
 
         
