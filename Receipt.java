@@ -27,10 +27,18 @@ public class Receipt{
          //printing receipt
          System.out.println("****************************************");
          double price = apple*1.5;
-         System.out.println(apple + " Apple(s)" + "            $1.50 each" + " $" + price%2);
-         System.out.println(banana + " Banana(s)" + "           $0.75 each" + " $" + (banana*0.75)%2);
-         System.out.println(pear + " Pear(s)" + "             $1.00 each" + " $" + (pear*1.00)%2);
-         System.out.println(orange + " Orange(s)" + "           $1.25 each" + " $" + (orange*1.25)%2);
+         if (apple != 0) {
+            System.out.println(apple + " Apple(s)" + "            $1.50 each" + " $" + price);
+         }
+         else if (banana != 0) {
+            System.out.println(banana + " Banana(s)" + "           $0.75 each" + " $" + (banana*0.75));
+         }
+         else if (pear != 0) {
+            System.out.println(pear + " Pear(s)" + "             $1.00 each" + " $" + (pear*1.00));
+        }
+         else if (orange != 0) {
+            System.out.println(orange + " Orange(s)" + "           $1.25 each" + " $" + (orange*1.25));
+         }
 
 
         
