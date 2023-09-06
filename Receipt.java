@@ -15,10 +15,10 @@ public class Receipt{
          //prompt for number of objects
          System.out.println("****************************************");
          do{
-            System.out.println("How many apples would you like? ($1.50 each, limit: 9) ");
+            System.out.println("How many apples would you like? ($1.50 each, limit: 6) ");
             apple = scan.nextInt();
          }
-         while (apple > 9);
+         while (apple > 6);
          do {
          System.out.println("How many bananas would you like? ($0.75 each, limit: 9)");
          banana = scan.nextInt();
@@ -31,10 +31,10 @@ public class Receipt{
          }
          while (pear > 9);
          do{
-         System.out.println("How many oranges would you like? ($1.25 each, limit: 9)");
+         System.out.println("How many oranges would you like? ($1.25 each, limit: 7)");
          orange = scan.nextInt();
          }
-         while (orange > 9);
+         while (orange > 7);
 
          System.out.println("Thank you for your purchase!");
          //end = scan.nextLine();
