@@ -25,9 +25,9 @@ public class Receipt{
          //end = scan.nextLine();
          System.out.println("****************************************");
          System.out.println(apple + " Apple(s)" + "            $1.50 each" + " $" + String.format("%.2f",(apple*1.5)));
-         System.out.println(banana + " Banana(s)" + "           $0.75 each" + " $" + (banana*0.75));
-         System.out.println(pear + " Pear(s)" + "             $1.00 each" + " $" + (pear*1.00));
-         System.out.println(orange + " Orange(s)" + "           $1.25 each" + " $" + (orange*1.25));
+         System.out.println(banana + " Banana(s)" + "           $0.75 each" + " $" + String.format("%.2f", (banana*0.75)));
+         System.out.println(pear + " Pear(s)" + "             $1.00 each" + " $" + String.format("%.2f", (pear*1.00)));
+         System.out.println(orange + " Orange(s)" + "           $1.25 each" + " $" + String.format("%.2f", (orange*1.25)));
 
          //printing receipt
          System.out.println("****************************************");
